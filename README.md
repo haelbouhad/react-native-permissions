@@ -1,5 +1,7 @@
 # ☝🏼 React Native Permissions just <location, notification>
 
+Request user permissions for location and notification.
+
 ## Setup
 
 ```sh
