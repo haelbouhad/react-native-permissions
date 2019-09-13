@@ -1,14 +1,14 @@
 {
   "name": "react-native-permissions-location-notification",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This is a fork from react-native-community/react-native-permissions. It uses just location and notification permissions, so we can avoid Apple's reject for the unnecessary permissions on iOS",
   "author": "Hassan ELBOUHADI <hassan.bouhadi@gmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/react-native-community/react-native-permissions#readme",
+  "homepage": "https://github.com/haelbouhad/react-native-permissions#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-permissions.git"
+    "url": "https://github.com/haelbouhad/react-native-permissions.git"
   },
   "keywords": [
     "react-native",
