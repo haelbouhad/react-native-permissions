@@ -1,4 +1,4 @@
-# ☝🏼 React Native Permissions just <location, notification>
+# ☝🏼 React Native Permissions
 
 Request user permissions for location and notification.
 

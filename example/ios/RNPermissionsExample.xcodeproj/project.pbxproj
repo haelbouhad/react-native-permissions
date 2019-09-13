@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E06F1D88D53CACFEA8805DA /* libPods-RNPermissionsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556DF35B5F5B569EF245DD1D /* libPods-RNPermissionsExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		62CE1AEC1251473DD61D324B /* libPods-RNPermissionsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7398B77834C64FA3236255AF /* libPods-RNPermissionsExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNPermissionsExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNPermissionsExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNPermissionsExample/main.m; sourceTree = "<group>"; };
-		41CC55DE2BF4A1CA71460AE5 /* Pods-RNPermissionsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPermissionsExample.release.xcconfig"; path = "Target Support Files/Pods-RNPermissionsExample/Pods-RNPermissionsExample.release.xcconfig"; sourceTree = "<group>"; };
-		556DF35B5F5B569EF245DD1D /* libPods-RNPermissionsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNPermissionsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D08F1080D9CA57BA7DA73993 /* Pods-RNPermissionsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPermissionsExample.debug.xcconfig"; path = "Target Support Files/Pods-RNPermissionsExample/Pods-RNPermissionsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7398B77834C64FA3236255AF /* libPods-RNPermissionsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNPermissionsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4C7499E031349C1EAD33F6 /* Pods-RNPermissionsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPermissionsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPermissionsExample/Pods-RNPermissionsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E0BAEEF19DDD5D5F5EF79A /* Pods-RNPermissionsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPermissionsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPermissionsExample/Pods-RNPermissionsExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E06F1D88D53CACFEA8805DA /* libPods-RNPermissionsExample.a in Frameworks */,
+				62CE1AEC1251473DD61D324B /* libPods-RNPermissionsExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				556DF35B5F5B569EF245DD1D /* libPods-RNPermissionsExample.a */,
+				7398B77834C64FA3236255AF /* libPods-RNPermissionsExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,8 +88,8 @@
 		AAD69C6C4FF2C8FD1E65015F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D08F1080D9CA57BA7DA73993 /* Pods-RNPermissionsExample.debug.xcconfig */,
-				41CC55DE2BF4A1CA71460AE5 /* Pods-RNPermissionsExample.release.xcconfig */,
+				8C4C7499E031349C1EAD33F6 /* Pods-RNPermissionsExample.debug.xcconfig */,
+				C0E0BAEEF19DDD5D5F5EF79A /* Pods-RNPermissionsExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNPermissionsExample" */;
 			buildPhases = (
-				BD4E7135453738F218DAFD9A /* [CP] Check Pods Manifest.lock */,
+				284B5D662FDA77B5AB19CA2D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -177,7 +177,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		BD4E7135453738F218DAFD9A /* [CP] Check Pods Manifest.lock */ = {
+		284B5D662FDA77B5AB19CA2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,7 +247,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D08F1080D9CA57BA7DA73993 /* Pods-RNPermissionsExample.debug.xcconfig */;
+			baseConfigurationReference = 8C4C7499E031349C1EAD33F6 /* Pods-RNPermissionsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -260,6 +260,8 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecommunity.rnpermissionsexample;
 				PRODUCT_NAME = RNPermissionsExample;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -268,7 +270,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41CC55DE2BF4A1CA71460AE5 /* Pods-RNPermissionsExample.release.xcconfig */;
+			baseConfigurationReference = C0E0BAEEF19DDD5D5F5EF79A /* Pods-RNPermissionsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -280,6 +282,8 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecommunity.rnpermissionsexample;
 				PRODUCT_NAME = RNPermissionsExample;
 				VERSIONING_SYSTEM = "apple-generic";
